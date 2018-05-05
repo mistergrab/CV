@@ -3,8 +3,18 @@
 <head>
     <title>方方的个人简历</title>
     <link rel="stylesheet" href="./a.css">
+    <script src="//at.alicdn.com/t/font_650741_f7ax710xjzg58kt9.js"></script>
+    <style type="text/css">
+        .icon {
+           width: 1em; height: 1em;
+           vertical-align: -0.15em;
+           fill: currentColor;
+           overflow: hidden;
+        }
+    </style>
 </head>
 <body>
+        
 <div class="topNavBar">
     <div class="topNavBar-inner clearfix">
             <a class="logo" href="#" alt="logo" style="float: left;">
@@ -54,43 +64,100 @@
             </div>
         </div>
         <footer class="media">
-            <a href="#"><img src="#" alt="..."></a>
-            <a href="#"><img src="#" alt="..."></a>
-            <a href="#"><img src="#" alt="..."></a>
-            <a href="#"><img src="#" alt="..."></a>
-            <a href="#"><img src="#" alt="..."></a>
-            <a href="#"><img src="#" alt="..."></a>
-            <a href="#"><img src="#" alt="..."></a>
+            <a href="#"><svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-github"></use>
+            </svg></a>
+            <a href="#"><svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-jianshu"></use>
+            </svg></a>
+            <a href="#"><svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-weixin"></use>
+            </svg></a>
+            <a href="#"><svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-weibo"></use>
+            </svg></a>
+            <a href="#"><svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-lianshu"></use>
+            </svg></a>
+            <a href="#"><svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-tuite"></use>
+            </svg></a>
+            <a href="#"><svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-weixin"></use>
+            </svg></a>
         </footer>
     </div>
-
-    <a class="button" href="#">下载 PDF 简历</a>
-
-    <p>
+    <p class="downloadResume-wrapper">
+        <a class="downloadResume" href="./北航2018年拟录取硕士研究生名单公示3352.pdf" target="_blank" download="">下载 PDF 简历</a>
+    </p>
+    <p class="selfintroduction">
         方应杭， 资深前端工程师，资深前端讲师，现在在 饥人谷 教前端课程。<br>
         技能：前端开发，Rails 开发，Node.js 开发
     </p>
 
 </main>
-<section>
+<section class="skills">
     <h2>技能</h2>
-    <ol>
-        <li>HTML 5 &amp; CSS 3</li>
-        <li>JavaScript</li>
-        <li>jQuery</li>
-        <li>Vue</li>
-        <li>React</li>
-        <li>HTTP</li>
+    <ol class="clearfix">
+        <li>
+            <h3>HTML 5 &amp; CSS 3
+            </h3>
+            <div class="progressBar">
+                <div class="progress" style="width: 30%">
+                </div>
+            </div>
+        </li>
+         <li>
+            <h3>JavaScript
+            </h3>
+            <div class="progressBar">
+                <div class="progress" style="width: 30%">
+                </div>
+            </div>
+        </li>
+        <li>
+                <h3>jQuery
+                </h3>
+                <div class="progressBar">
+                    <div class="progress" style="width: 10%">
+                    </div>
+                </div>
+            </li>
+        <li>
+            <h3>Vue
+            </h3>
+            <div class="progressBar">
+                <div class="progress" style="width: 60%">
+                </div>
+            </div>
+        </li>        <li>
+                <h3>React
+                </h3>
+                <div class="progressBar">
+                    <div class="progress" style="width: 40%">
+                    </div>
+                </div>
+            </li>        <li>
+                    <h3>HTTP
+                    </h3>
+                    <div class="progressBar">
+                        <div class="progress" style="width: 70%">
+                        </div>
+                    </div>
+                </li>
     </ol>
 </section>
-<section>
+<section class="portfolio">
     <h2>作品集</h2>
     <nav>
-        <ol>
+        <ol class="clearfix">
             <li>所有</li>
             <li>框架</li>
             <li>原生JS&amp;CSS</li>
         </ol>
+            <div class="bar">
+                <div class="bar-inner"></div>
+            </div>
     </nav>
 
     <div class="jobs">
